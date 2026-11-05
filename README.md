@@ -5,11 +5,11 @@ This repository contains two complementary NLP mini-projects:
 1. **Sentiment analysis:** VADER lexicon/rule-based scoring on the three-class TweetEval sentiment test set (negative, neutral, positive).
 2. **Named Entity Recognition (NER):** pretrained spaCy `en_core_web_sm` predictions evaluated against WNUT 2017 gold entity spans.
 
-The tasks use separate, public benchmark datasets because TweetEval contains gold sentiment labels while WNUT 2017 contains gold BIO entity annotations. Both are based on informal social/user-generated text. The project does not fabricate missing NER annotations for the sentiment corpus.
+The tasks use separate public benchmark datasets because TweetEval contains gold sentiment labels while WNUT 2017 contains gold BIO entity annotations. Both are based on informal user-generated text. The project does not fabricate missing NER annotations for the sentiment corpus.
 
 ## Files
 
-- `Week3_Sentiment_Analysis_and_NER_Report.docx` — full internship report with methodology, preprocessing, algorithms, evaluation strategy, discussion, limitations, and improvements.
+- `REPORT.md` — full internship report with dataset choices, methodology, preprocessing, algorithms, evaluation, discussion, limitations, and improvements.
 - `week3_nlp_pipeline.py` — executable sentiment and NER evaluation pipeline.
 - `requirements.txt` — Python dependencies.
 - `submission_description.txt` — report description for the internship portal.
